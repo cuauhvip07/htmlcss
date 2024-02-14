@@ -1,0 +1,27 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+
+.iconos{
+
+    margin-top: 5rem;
+    
+    .listado-iconos{
+
+        @include m.tablet{ 
+            @include m.grid(3,3rem);
+        }
+
+        img{
+            width: 12rem;
+            margin: 0 auto;
+        }
+
+        p{
+            text-align: center;
+            font-family: v.$fuenteCursiva;
+            font-size: 3.2rem;
+            color: v.$primario;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+img{
+    max-width: 100%;
+    display: block;
+}
+
+p{
+    background-color: red;
+    margin: 0;
+}

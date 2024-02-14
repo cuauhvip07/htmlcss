@@ -1,0 +1,9 @@
+/* Seleccionar el ultimo elemento de una lista */
+
+ul li:last-child{
+    border: 3px solid brown;
+}
+
+ul li:last-of-type{
+    border: 2px solid red;
+}
